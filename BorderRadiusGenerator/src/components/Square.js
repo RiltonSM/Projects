@@ -17,8 +17,4 @@ const Square = props => {
     );
 }
 
-const styles = {
-    
-}
-
 export default Square;

@@ -39,7 +39,7 @@ const Code = props => {
                 border-bottom-right-radius: {props.estilo.borderBottomRightRadius}
             </div>
             }
-            <div>
+            <div style={{marginTop: 15, display: 'flex', justifyContent: 'space-around'}}>
                 <label><input type='radio' onClick={() => props.changeLang(true)} checked={props.estilo.lang} value="JSX"/>JSX</label>
                 <label><input type='radio' onClick={() => props.changeLang(false)} checked={!props.estilo.lang} value="CSS"/>CSS</label>
             </div>

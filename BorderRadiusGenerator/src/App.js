@@ -9,10 +9,10 @@ class App extends React.Component {
         height: 300, 
         borderWidth: 3, 
         borderStyle: 'solid', 
-        borderTopLeftRadius: 15, 
-        borderTopRightRadius: 25, 
-        borderBottomLeftRadius: 20, 
-        borderBottomRightRadius: 60,
+        borderTopLeftRadius: 0, 
+        borderTopRightRadius: 0, 
+        borderBottomLeftRadius: 0, 
+        borderBottomRightRadius: 0,
         lang: true
     }
 
